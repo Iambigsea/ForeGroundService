@@ -25,7 +25,6 @@ public class ContentAdapter extends BaseAdapter {
         this.mDatas = mDatas;
         this.mContext = mContext;
     }
-
     @Override
     public int getCount() {
         return mDatas == null ? 0 : mDatas.size();
